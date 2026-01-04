@@ -82,19 +82,25 @@ Common device ports on Pi:
 ## Repository Structure (Recommended)
 
 AI-Face-Attendance-System/
-  README.md
-  LICENSE
-  .gitignore
-  arduino/
-    huskylens_attendance.ino
-    README_arduino.md
-  raspberry_pi/
-    app.py
-    requirements.txt
-    schema.sql
-  deployment/
-    attendance.service
-    install.sh
+├─ README.md
+├─ LICENSE
+├─ .gitignore
+├─ arduino/
+│  ├─ huskylens_attendance.ino
+│  └─ README_arduino.md
+├─ raspberry_pi/
+│  ├─ app.py
+│  ├─ requirements.txt
+│  ├─ schema.sql
+│  └─ static/ (optional)
+├─ deployment/
+│  ├─ attendance.service
+│  └─ install.sh (optional)
+└─ docs/
+   ├─ wiring_diagram.png
+   ├─ screenshots/
+   └─ brochure_trifold_template.md (optional)
+
 
 ---
 
