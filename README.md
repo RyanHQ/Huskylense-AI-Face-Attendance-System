@@ -81,6 +81,9 @@ Common device ports on Pi:
 
 ## Repository Structure (Recommended)
 
+
+## Repository Structure (Recommended)
+
 ```text
 AI-Face-Attendance-System/
 ├─ README.md
@@ -96,8 +99,7 @@ AI-Face-Attendance-System/
 └─ deployment/
    ├─ attendance.service
    └─ install.sh
-
-  
+```
 
 
 
