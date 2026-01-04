@@ -4,6 +4,9 @@ An offline/local-network AI face recognition attendance system using HuskyLens (
 
 Works fully offline inside LAN / hotspot (no cloud subscription).
 
+Reason for using Arduino Mega: HuskyLens V1.1 has compatibility limitations for direct communication with Raspberry Pi 4 (I2C/UART integration is not reliable/straightforward depending on the firmware/protocol support), so the Arduino acts as a stable bridge—reading HuskyLens over I2C and forwarding the recognized Face ID to the Raspberry Pi via USB Serial.
+
+
 ---
 
 ## Features
