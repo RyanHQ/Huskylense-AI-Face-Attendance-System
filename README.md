@@ -92,14 +92,14 @@ AI-Face-Attendance-System/
 │  ├─ app.py
 │  ├─ requirements.txt
 │  ├─ schema.sql
-│  └─ static/ (optional)
+│  └─ static/
 ├─ deployment/
 │  ├─ attendance.service
-│  └─ install.sh (optional)
+│  └─ install.sh
 └─ docs/
    ├─ wiring_diagram.png
-   ├─ screenshots/
-   └─ brochure_trifold_template.md (optional)
+  
+
 
 
 ---
