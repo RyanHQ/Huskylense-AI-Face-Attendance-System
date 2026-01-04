@@ -180,6 +180,7 @@ Description=AI Attendance Flask Server (HuskyLens)
 After=network-online.target
 Wants=network-online.target
 
+```text
 [Service]
 Type=simple
 User=YOUR_USERNAME
@@ -189,7 +190,7 @@ ExecStart=/home/YOUR_USERNAME/attendance/venv/bin/python /home/YOUR_USERNAME/att
 Restart=always
 RestartSec=3
 # SupplementaryGroups=dialout
-
+```
 [Install]
 WantedBy=multi-user.target
 
