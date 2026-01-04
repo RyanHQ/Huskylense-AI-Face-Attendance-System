@@ -174,9 +174,9 @@ http://<PI_IP>:5000
 sudo nano /etc/systemd/system/attendance.service
 
 Paste and replace YOUR_USERNAME:
-
-[Unit]
 ```text
+[Unit]
+
 Description=AI Attendance Flask Server (HuskyLens)
 After=network-online.target
 Wants=network-online.target
