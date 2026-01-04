@@ -70,7 +70,7 @@ Optional:
 ![System Block Diagram](Huskylense Attendance System/Docs/diagrams/block_diagram.png)
 
 ### Flowchart
-![Flowchart](Huskylense Attendance System/Docs/diagrams/flowchart.png)
+![Flowchart](Huskylense_Attendance_System/Docs/diagrams/flowchart.png)
 
 ### HuskyLens -> Arduino Mega (I2C)
 
