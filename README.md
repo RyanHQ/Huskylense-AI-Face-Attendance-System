@@ -64,7 +64,7 @@ Optional:
 ## Diagrams
 
 ### Wiring Diagram
-![Wiring Diagram](Huskylense Attendance System/Docs/diagrams/wiring_diagram.png)
+![Wiring Diagram](Huskylense_Attendance_System/Docs/diagrams/block_diagram.png)
 
 ### System Block Diagram
 ![System Block Diagram](Huskylense Attendance System/Docs/diagrams/block_diagram.png)
