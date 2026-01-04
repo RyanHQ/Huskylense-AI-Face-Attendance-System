@@ -304,4 +304,4 @@ sudo reboot
 
 ## License
 
-MIT License recommended.
+MIT License
