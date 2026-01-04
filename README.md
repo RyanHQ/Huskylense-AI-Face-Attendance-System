@@ -61,6 +61,17 @@ Optional:
 
 ## Wiring
 
+## Diagrams
+
+### Wiring Diagram
+![Wiring Diagram](docs/diagrams/wiring_diagram.png)
+
+### System Block Diagram
+![System Block Diagram](docs/diagrams/block_diagram.png)
+
+### Flowchart
+![Flowchart](docs/diagrams/flowchart.png)
+
 ### HuskyLens -> Arduino Mega (I2C)
 
 HuskyLens SDA -> Mega SDA (Pin 20)
