@@ -93,10 +93,7 @@ Common device ports on Pi:
 
 ---
 
-## Repository Structure (Recommended)
-
-
-## Repository Structure (Recommended)
+## Repository Structure 
 
 ```
 AI-Face-Attendance-System/
