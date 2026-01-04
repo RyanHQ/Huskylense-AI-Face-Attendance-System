@@ -64,13 +64,13 @@ Optional:
 ## Diagrams
 
 ### Wiring Diagram
-![Wiring Diagram](Huskylense_Attendance_System/Docs/diagrams/wiring_diagram.png)
+<img src="Huskylense_Attendance_System/Docs/diagrams/wiring_diagram.png" width="500">
 
 ### System Block Diagram
-![System Block Diagram](Huskylense_Attendance_System/Docs/diagrams/block_diagram.png)
+<img src="Huskylense_Attendance_System/Docs/diagrams/block_diagram.png" width="500">
 
 ### Flowchart
-![Flowchart](Huskylense_Attendance_System/Docs/diagrams/flowchart.png)
+<img src="Huskylense_Attendance_System/Docs/diagrams/flowchart.png" width="500">
 
 ### HuskyLens -> Arduino Mega (I2C)
 
