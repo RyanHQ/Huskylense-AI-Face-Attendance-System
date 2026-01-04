@@ -84,7 +84,7 @@ Common device ports on Pi:
 
 ## Repository Structure (Recommended)
 
-```text
+```
 AI-Face-Attendance-System/
 ├─ README.md
 ├─ LICENSE
@@ -134,13 +134,14 @@ The Raspberry Pi listens for "FACE:<ID>".
 ## Raspberry Pi Setup (Flask + Serial + SQLite)
 
 ### 1) Copy files to Pi
-
+```
 mkdir -p ~/attendance
 cd ~/attendance
+```
 # Copy raspberry_pi/app.py and raspberry_pi/requirements.txt into this folder
 
 ### 2) Create venv + install dependencies
-
+```
 sudo apt update
 sudo apt install -y python3-venv python3-pip
 
@@ -148,33 +149,34 @@ cd ~/attendance
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-
+```
 ### 3) Run manually (test)
-
+```
 python app.py
-
+```
 You should see:
+```
 - Serial connected message (if Arduino is plugged in)
 - Flask running on 0.0.0.0:5000
-
+```
 ### 4) Open dashboard from another device
-
+```
 Find Pi IP:
 hostname -I
 
 Open in browser (same Wi-Fi/hotspot):
 http://<PI_IP>:5000
-
+```
 ---
 
 ## Auto-start on Boot (systemd)
 
 ### 1) Create service file
-
+```
 sudo nano /etc/systemd/system/attendance.service
-
+```
 Paste and replace YOUR_USERNAME:
-```text
+```
 [Unit]
 
 Description=AI Attendance Flask Server (HuskyLens)
@@ -203,9 +205,9 @@ sudo systemctl restart attendance.service
 sudo systemctl status attendance.service
 ```
 ### 3) View logs
-
+```
 sudo journalctl -u attendance.service -f
-
+```
 ---
 
 ## Web Routes
@@ -273,14 +275,16 @@ ATTENDANCE_DB=attendance.db
 - Allow port 5000 on firewall if enabled
 
 ### Serial device missing
+```
 ls /dev/ttyACM*
 ls /dev/ttyUSB*
 dmesg | grep -i tty
-
+```
 ### Permission denied on serial
+```
 sudo usermod -aG dialout $USER
 sudo reboot
-
+```
 ### HuskyLens not detecting
 - Mode = Face Recognition
 - Protocol = I2C
