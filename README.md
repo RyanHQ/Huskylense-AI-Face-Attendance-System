@@ -64,10 +64,10 @@ Optional:
 ## Diagrams
 
 ### Wiring Diagram
-![Wiring Diagram](Huskylense_Attendance_System/Docs/diagrams/block_diagram.png)
+![Wiring Diagram](Huskylense_Attendance_System/Docs/diagrams/wiring_diagram.png)
 
 ### System Block Diagram
-![System Block Diagram](Huskylense Attendance System/Docs/diagrams/block_diagram.png)
+![System Block Diagram](Huskylense_Attendance_System/Docs/diagrams/block_diagram.png)
 
 ### Flowchart
 ![Flowchart](Huskylense_Attendance_System/Docs/diagrams/flowchart.png)
