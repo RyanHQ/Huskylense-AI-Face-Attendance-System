@@ -254,14 +254,14 @@ Unknown ID: 6
 ---
 
 ## Configuration (Optional Environment Variables)
-
+```text
 SERIAL_PORT=/dev/ttyACM0
 BAUDRATE=115200
 COOLDOWN=60
 PORT=5000
 HOST=0.0.0.0
 ATTENDANCE_DB=attendance.db
-
+```
 ---
 
 ## Troubleshooting
