@@ -64,13 +64,13 @@ Optional:
 ## Diagrams
 
 ### Wiring Diagram
-![Wiring Diagram](Huskylense-AI-Face-Attendance-System/Huskylense_Attendance_System/docs/diagrams/wiring_diagram.png)
+![Wiring Diagram](Huskylense Attendance System/Docs/diagrams/wiring_diagram.png)
 
 ### System Block Diagram
-![System Block Diagram](Huskylense-AI-Face-Attendance-System/Huskylense_Attendance_System/docs/diagrams/block_diagram.png)
+![System Block Diagram](Huskylense Attendance System/Docs/diagrams/block_diagram.png)
 
 ### Flowchart
-![Flowchart](Huskylense-AI-Face-Attendance-System/Huskylense_Attendance_System/docs/diagrams/flowchart.png)
+![Flowchart](Huskylense Attendance System/Docs/diagrams/flowchart.png)
 
 ### HuskyLens -> Arduino Mega (I2C)
 
