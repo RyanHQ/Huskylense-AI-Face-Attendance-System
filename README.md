@@ -73,12 +73,12 @@ Optional:
 <img src="Huskylense_Attendance_System/Docs/diagrams/flowchart.png" width="500">
 
 ### HuskyLens -> Arduino Mega (I2C)
-
+```
 HuskyLens SDA -> Mega SDA (Pin 20)
 HuskyLens SCL -> Mega SCL (Pin 21)
 HuskyLens VCC -> 5V
 HuskyLens GND -> GND
-
+```
 On HuskyLens:
 - Protocol = I2C
 - Algorithm = Face Recognition
