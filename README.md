@@ -196,12 +196,12 @@ RestartSec=3
 WantedBy=multi-user.target
 
 ### 2) Enable + start
-
+```text
 sudo systemctl daemon-reload
 sudo systemctl enable attendance.service
 sudo systemctl restart attendance.service
 sudo systemctl status attendance.service
-
+```
 ### 3) View logs
 
 sudo journalctl -u attendance.service -f
