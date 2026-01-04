@@ -204,9 +204,10 @@ ExecStart=/home/YOUR_USERNAME/attendance/venv/bin/python /home/YOUR_USERNAME/att
 Restart=always
 RestartSec=3
 # SupplementaryGroups=dialout
-```
+
 [Install]
 WantedBy=multi-user.target
+```
 
 ### 2) Enable + start
 ```text
