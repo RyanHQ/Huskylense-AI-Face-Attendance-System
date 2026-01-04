@@ -74,8 +74,8 @@ Optional:
 
 ### HuskyLens -> Arduino Mega (I2C)
 ```
-HuskyLens SDA -> Mega SDA (Pin 20)
-HuskyLens SCL -> Mega SCL (Pin 21)
+HuskyLens TX -> Mega SDA (Pin 20)
+HuskyLens RX -> Mega SCL (Pin 21)
 HuskyLens VCC -> 5V
 HuskyLens GND -> GND
 ```
